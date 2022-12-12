@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Nanum+Myeongjo:wght@400;700;800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+* {
+    font-family: 'Spectral', serif;
+}
+
+.menu {
+    background-color: rgb(204, 214, 166);
+    padding: 20px;
+}
+
+#name {
+    color: black;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#icj {
+    color: black;
+    margin-left: 990px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#about {
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#portfolio {
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#home {
+    color: black;
+    text-decoration: none;
+}
+
+.homemain {
+    display:flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 1454px;
+    height: 518px;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(247, 237, 219);
+}
+
+#about1 {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+    padding-right: 400px;
+    padding-bottom: 40px;
+    background-image: url(https://lp-cms-production.imgix.net/2021-05/GettyRF_462144413.jpg);
+    background-size: cover;
+    background-position-y: 20%;
+}
+
+#abouttext {
+    background-color: rgb(218, 226, 182);
+    padding-top: 50px;
+    padding-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#p1 {
+    background-color: rgb(218, 226, 182);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+#clickme {
+    background-color: rgb(218, 226, 182);
+    color:rgb(166, 177, 123);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 60px;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+#icj1 {
+    padding-left: 375px;
+    padding-bottom: 15px;
+    background-image: url(https://media.istockphoto.com/id/1090431444/photo/judge-gavel-and-scale-in-court-legal-concept.jpg?s=612x612&w=0&k=20&c=J8Xo47BvPlo1Y4l4Cia3IBVzE699dLd73_QDFWVifts=);
+    background-size: cover;
+    background-position: 35%;
+}
+
+#icjtext {
+    text-align: end;
+    background-color: rgb(218, 226, 182);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+
+}
+
+#p2 {
+    text-align: end;
+    background-color: rgb(218, 226, 182);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+
+}
+
+#clickme1 {
+    text-align: end;
+    background-color: rgb(218, 226, 182);
+    color:rgb(166, 177, 123);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 80px;
+    text-decoration: none;
+
+}
+
+#portfolio1 {
+    padding-left: 375px;
+    padding-bottom: 15px;
+    background-image: url(https://d1y8sb8igg2f8e.cloudfront.net/images/shutterstock_736294369.2e16d0ba.fill-1600x775.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#portfoliotext {
+    text-align: end;
+    background-color: rgb(218, 226, 182);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 17px;
+    padding-right: 20px;
+}
+
+#p3 {
+    text-align: end;
+    background-color: rgb(218, 226, 182);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+
+}
+
+#clickme2 {
+    text-align: end;
+    background-color: rgb(218, 226, 182);
+    color:rgb(166, 177, 123);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 23px;
+    padding-right: 20px;
+    padding-left: 60px;
+    text-decoration: none;
+
+}
+
+#footer {
+    color: white;
+    background-color: rgb(204, 214, 166);
+    padding: 15px;
+    padding-left: 650px;
+}
+
+.homemain1 {
+    display:flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px;
+    width: 1454px;
+    height: 518px;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color:rgb(247, 237, 219);
+}
+
+#avatar{
+    background-color: rgb(223, 232, 204);
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+#aboutbody {
+    background-color: rgb(223, 232, 204);
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10%;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#portfoliomain {
+    display:flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px;
+    width: 1454px;
+    height: 518px;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color:rgb(247, 237, 219);
+}
+
+#dramaimg {
+    margin-top: -120px;
+    margin-left: -930px;
+}
+
+#drama {
+    background-color: rgb(223, 232, 204);
+    margin-left: -1340px;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-left: 63px;
+    padding-right: 63px;
+    margin-bottom: 130px;
+}
+
+#dramalink {
+    background-color: rgb(223, 232, 204);
+    color:rgb(166, 177, 123);
+    margin-left: -1340px;
+    margin-top: 200px;
+    padding-left: 80px;
+    padding-right: 79px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+
+}
+
+#portfoliodesc1 {
+    background-color: rgb(223, 232, 204);
+    margin-left: -1340px;
+    margin-top: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+#portfoliomain1 {
+    display:flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -620px;
+    margin-left: 450px;
+    width: 500px;
+    height: 518px;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#portfoliomain2 {
+    display:flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -620px;
+    margin-left: 910px;
+    width: 500px;
+    height: 518px;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#portfoliomain3 {
+    display:flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -100px;
+    width: 1454px;
+    height: 318px;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color:rgb(247, 237, 219);
+
+}
+
+#dramaimg1 {
+    margin-top: -115px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+#drama1 {
+    background-color: rgb(223, 232, 204);
+    margin-left: 40px;
+    padding-top: 15px;
+    padding-left: 63px;
+    padding-right: 63px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+#dramalink1 {
+    background-color: rgb(223, 232, 204);
+    color:rgb(166, 177, 123);
+    margin-left: 40px;
+    padding-left: 80px;
+    padding-right: 79px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    margin-bottom: 0px;
+
+}
+
+#portfoliodesc2 {
+    background-color: rgb(223, 232, 204);
+    margin-left: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#dramaimg2 {
+    margin-top: -120px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+#drama2 {
+    background-color: rgb(223, 232, 204);
+    margin-left: 40px;
+    padding-top: 15px;
+    padding-left: 63px;
+    padding-right: 63px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#dramalink2 {
+    background-color: rgb(223, 232, 204);
+    color:rgb(166, 177, 123);
+    margin-left: 40px;
+    padding-left: 80px;
+    padding-right: 79px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+#portfoliodesc3 {
+    background-color: rgb(223, 232, 204);
+    margin-left: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
